@@ -9,6 +9,7 @@ import ClassSaving from './components/classes/ClassSaving';
 import ClassSpending from './components/classes/ClassSpending';
 import ClassEarning from './components/classes/ClassEarning';
 import ResourcesPage from './pages/ResourcesPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import { MascotProvider } from './context/MascotContext';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
               <Route path="/classes/spending" element={<ClassSpending />} />
               <Route path="/classes/earning" element={<ClassEarning />} />
               <Route path="/resources" element={<ResourcesPage />} />
+              <Route path="/privacy" element={<PrivacyPolicyPage />} />
             </Routes>
           </main>
           <Footer />

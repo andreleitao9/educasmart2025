@@ -60,7 +60,7 @@ const Footer = () => {
               Feito com <Heart size={14} className="inline text-red-400" /> para jovens aprendizes
             </p>
             <div className="flex space-x-4 mt-2 md:mt-0">
-              <Link to="#privacy" className="hover:text-white transition-colors">
+              <Link to="/privacy" className="hover:text-white transition-colors">
                 Política de Privacidade
               </Link>
               <Link to="#terms" className="hover:text-white transition-colors">

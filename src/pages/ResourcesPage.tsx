@@ -160,7 +160,7 @@ const ResourcesPage = () => {
             <p className="text-gray-700 mb-4">
               Os professores podem tornar-se educadores certificados Educa$mart através do nosso programa de certificação abrangente.
             </p>
-            <ul className="space-y-3 mb-6">
+            <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
                 <span className="text-gray-700">Completar 4 módulos de formação online</span>
@@ -178,9 +178,6 @@ const ResourcesPage = () => {
                 <span className="text-gray-700">Receber certificação oficial de Educador Educa$mart</span>
               </li>
             </ul>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-full shadow-md transition-colors">
-              Saber Mais Sobre a Certificação
-            </button>
           </div>
         </div>
 
